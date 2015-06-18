@@ -1,0 +1,14 @@
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\build\v1.1\bin\AnyCPU\release\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\build\v1.1\bin\AnyCPU\release\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.pdb
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Release\Geocoding.Scrapers.LAAssessor.csprojResolveAssemblyReference.cache
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Release\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Release\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.pdb
+C:\DevSource\DevBuild\Tamu\GeoInnovation\Geocoding\Scrapers.LAAssessor\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
+C:\DevSource\DevBuild\Tamu\GeoInnovation\Geocoding\Scrapers.LAAssessor\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Scrapers.LAAssessor\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Scrapers.LAAssessor\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Scrapers\LAAssessor\src\Main\obj\Release\Geocoding.Scrapers.LAAssessor.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Scrapers\LAAssessor\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Scrapers\LAAssessor\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Scrapers\LAAssessor\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Scrapers\LAAssessor\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
