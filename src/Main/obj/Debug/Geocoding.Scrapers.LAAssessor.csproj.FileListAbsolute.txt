@@ -1,5 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.pdb
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Debug\Geocoding.Scrapers.LAAssessor.csprojResolveAssemblyReference.cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Debug\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Geocoding\Scrapers\LAAssessor\src\obj\Debug\USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.pdb
