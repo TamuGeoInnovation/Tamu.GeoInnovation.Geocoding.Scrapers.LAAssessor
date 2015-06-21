@@ -1,5 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Scrapers.LAAssessor\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Scrapers.LAAssessor\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Scrapers.LAAssessor\src\Main\obj\Release\Geocoding.Scrapers.LAAssessor.Dev.csprojResolveAssemblyReference.cache
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Scrapers.LAAssessor\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.dll
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Scrapers.LAAssessor\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Scrapers.LAAssessor.pdb
