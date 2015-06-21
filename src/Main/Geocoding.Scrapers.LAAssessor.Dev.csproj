@@ -80,70 +80,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Addresses">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Addresses\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Addresses.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Drawing">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Drawing\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Drawing.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.ExceptionHandling">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\ExceptionHandling\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.ExceptionHandling.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Parcels">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.GeographicFeatures.Parcels\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Parcels.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.GeographicFeatures.Streets\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Geographics">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Geographics\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Geographics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Geometries">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Geometries\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Geometries.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units.Converters">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Images">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Images\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Images.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Web">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Web\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Web.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Xml">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\XML\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Xml.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Data.Databases">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases\build\1.0.0\release\Tamu.GeoInnovation.Common.Data.Databases.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.ReferenceDatasets.FeatureSources.ParameterProviders\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Vectorizer">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Vectorizer\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Vectorizer.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agents\LAAssessorAgent.cs" />
@@ -195,6 +131,88 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common.Core.Addresses\Src\Main\Common.Core.Addresses.Dev.csproj">
+      <Project>{29C0949B-4D41-4138-B59B-6DE4A6A1774E}</Project>
+      <Name>Common.Core.Addresses.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Drawing\Src\Main\Common.Core.Drawing.Dev.csproj">
+      <Project>{282C24E4-E164-4679-AAD4-E640B30404DC}</Project>
+      <Name>Common.Core.Drawing.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.ExceptionHandling\Src\Main\Common.Core.ExceptionHandling.Dev.csproj">
+      <Project>{4A553AE2-F5D1-42B6-BE3A-8442DF626EAF}</Project>
+      <Name>Common.Core.ExceptionHandling.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures.Parcels\src\Main\Common.Core.Geo.GeographicFeatures.Parcels.Dev.csproj">
+      <Project>{E4903383-8E21-45E1-9AC5-E6D7863DE1BA}</Project>
+      <Name>Common.Core.Geo.GeographicFeatures.Parcels.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures.Streets\Src\Main\Common.Core.Geo.GeographicFeatures.Streets.Dev.csproj">
+      <Project>{0C225E8B-E8AA-4AC2-A5BA-4B00AE357311}</Project>
+      <Name>Common.Core.Geo.GeographicFeatures.Streets.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Geographics\Src\Main\Common.Core.Geo.Geographics.Dev.csproj">
+      <Project>{B2B33994-371A-4F17-AD78-0794FEAAF034}</Project>
+      <Name>Common.Core.Geo.Geographics.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Geometries\Src\Main\Common.Core.Geo.Geometries.Dev.csproj">
+      <Project>{E8164C90-2753-46F3-937A-653039318563}</Project>
+      <Name>Common.Core.Geo.Geometries.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Units.Converters\Src\Main\Common.Core.Geo.Units.Converters.Dev.csproj">
+      <Project>{5CB3098F-54E7-427E-95CA-4D0EBBA9E2AB}</Project>
+      <Name>Common.Core.Geo.Units.Converters.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Units\Src\Main\Common.Core.Geo.Units.Dev.csproj">
+      <Project>{5F42520E-2DDA-4B4A-AFE5-5F5E00E33D47}</Project>
+      <Name>Common.Core.Geo.Units.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Images\Src\Main\Common.Core.Images.Dev.csproj">
+      <Project>{7E8B964D-3967-4118-9157-E8CE41A225B5}</Project>
+      <Name>Common.Core.Images.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
+      <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
+      <Name>Common.Core.Utils.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Web\Src\Main\Common.Core.Web.Dev.csproj">
+      <Project>{DEA75FBD-F1B4-4730-B10D-CBE20538DA37}</Project>
+      <Name>Common.Core.Web.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.XML\Src\Main\Common.Core.Xml.Dev.csproj">
+      <Project>{A297AEBA-E382-428B-859D-EB1B53205B30}</Project>
+      <Name>Common.Core.Xml.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Data.Databases\Src\Main\Common.Data.Databases.Dev.csproj">
+      <Project>{A7DF15F2-1210-4431-B223-A3A2810DC14A}</Project>
+      <Name>Common.Data.Databases.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders\src\Main\Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders.Dev.csproj">
+      <Project>{92709546-3954-436B-B406-0A05B13C11E3}</Project>
+      <Name>Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Vectorizing\src\Main\Geocoding.Vectorizer.Dev.csproj">
+      <Project>{1039EC17-2A84-4BD2-8052-FC1399FDC21F}</Project>
+      <Name>Geocoding.Vectorizer.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="BeforeBuild">
