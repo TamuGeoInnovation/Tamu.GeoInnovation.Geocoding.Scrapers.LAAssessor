@@ -208,6 +208,11 @@
       <Name>Geocoding.Core.ReferenceDatasets.FeatureSources.ParameterProviders.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Vectorizer\src\Main\Geocoding.Vectorizer.Dev.csproj">
+      <Project>{1039EC17-2A84-4BD2-8052-FC1399FDC21F}</Project>
+      <Name>Geocoding.Vectorizer.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="BeforeBuild">
