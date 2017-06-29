@@ -186,10 +186,9 @@
       <Name>Common.Core.Geo.GeographicFeatures.Streets.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.Geographics\Src\Main\Common.Core.Geo.Geographics.Dev.csproj">
-      <Project>{B2B33994-371A-4F17-AD78-0794FEAAF034}</Project>
-      <Name>Common.Core.Geo.Geographics.Dev</Name>
-      <Private>False</Private>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Geographics\Src\Main\Common.Core.Geo.Geographics.csproj">
+      <Project>{1318a181-4a10-4662-9706-3597c6cdcfc1}</Project>
+      <Name>Common.Core.Geo.Geographics</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Geo.Geometries\Src\Main\Common.Core.Geo.Geometries.Dev.csproj">
       <Project>{E8164C90-2753-46F3-937A-653039318563}</Project>
