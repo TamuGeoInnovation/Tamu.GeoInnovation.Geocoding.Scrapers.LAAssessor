@@ -80,8 +80,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.11.0.2\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+    <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.10.50.1600.1\lib\Net20\Microsoft.SqlServer.Types.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -107,7 +107,6 @@
     <Compile Include="AssessorAddressInfo.cs" />
     <Compile Include="AssessorImage.cs" />
     <Compile Include="LAAssessor.cs" />
-    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="Validating\AddressValidators\AddressValidatorResult.cs" />
     <Compile Include="Workers\AINWorker.cs" />
     <Compile Include="Workers\AddressValidatorWorker.cs" />
@@ -141,24 +140,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll">
-      <Link>SqlServerTypes\x64\msvcr100.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll">
-      <Link>SqlServerTypes\x64\SqlServerSpatial110.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll">
-      <Link>SqlServerTypes\x86\msvcr100.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\..\..\_RepoConfig\SolutionFiles\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll">
-      <Link>SqlServerTypes\x86\SqlServerSpatial110.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="LICENSE.txt" />
-    <Content Include="SqlServerTypes\readme.htm" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common.Core.Addresses\Src\Main\Common.Core.Addresses.Dev.csproj">
@@ -186,10 +168,9 @@
       <Name>Common.Core.Geo.GeographicFeatures.Streets.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.Geographics\Src\Main\Common.Core.Geo.Geographics.Dev.csproj">
-      <Project>{B2B33994-371A-4F17-AD78-0794FEAAF034}</Project>
-      <Name>Common.Core.Geo.Geographics.Dev</Name>
-      <Private>False</Private>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.Geographics\Src\Main\Common.Core.Geo.Geographics.csproj">
+      <Project>{1318a181-4a10-4662-9706-3597c6cdcfc1}</Project>
+      <Name>Common.Core.Geo.Geographics</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Geo.Geometries\Src\Main\Common.Core.Geo.Geometries.Dev.csproj">
       <Project>{E8164C90-2753-46F3-937A-653039318563}</Project>
