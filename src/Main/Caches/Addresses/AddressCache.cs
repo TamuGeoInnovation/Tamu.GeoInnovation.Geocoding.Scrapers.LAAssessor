@@ -9,9 +9,9 @@ using USC.GISResearchLab.Common.Utils.Strings;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 {
-	/// <summary>
-	/// Summary description for AddressCache.
-	/// </summary>
+    /// <summary>
+    /// Summary description for AddressCache.
+    /// </summary>
     public class AddressCache : DatabaseTableSource
     {
 
@@ -133,7 +133,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
                     {
                         actualAddresses.addAddress(dr.GetInt32(0));
                     }
-                    
+
                 }
                 else
                 {

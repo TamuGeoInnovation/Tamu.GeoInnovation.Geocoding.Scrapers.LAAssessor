@@ -2,10 +2,10 @@ using USC.GISResearchLab.Common.Geometries;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 {
-	/// <summary>
-	/// Summary description for CachedParcel.
-	/// </summary>
-	public class CachedGeometry
+    /// <summary>
+    /// Summary description for CachedParcel.
+    /// </summary>
+    public class CachedGeometry
     {
 
         #region Properties

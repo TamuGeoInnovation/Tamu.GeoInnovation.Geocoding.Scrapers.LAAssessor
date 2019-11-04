@@ -48,7 +48,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             get { return _ShouldQueryAgent; }
             set { _ShouldQueryAgent = value; }
         }
-	
+
         private string _Name;
         public string Name
         {
@@ -62,28 +62,28 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             get { return _LAAssessorAgent; }
             set { _LAAssessorAgent = value; }
         }
-	
+
         private NumberOfLotsWorker _NumberOfLotsWorker;
         public NumberOfLotsWorker NumberOfLotsWorker
         {
             get { return _NumberOfLotsWorker; }
             set { _NumberOfLotsWorker = value; }
         }
-	
+
         private ImageWorker _ImageWorker;
         public ImageWorker ImageWorker
         {
             get { return _ImageWorker; }
             set { _ImageWorker = value; }
         }
-	
+
         private AINWorker _AINWorker;
         public AINWorker AINWorker
         {
             get { return _AINWorker; }
             set { _AINWorker = value; }
         }
-	
+
         private AddressValidatorWorker _AddressValidatorWorker;
         public AddressValidatorWorker AddressValidatorWorker
         {
@@ -169,7 +169,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
 
             ret = address.HasValidNumber && address.HasName && (address.HasCity || address.HasZIP) && address.HasState;
 
-            if (! ret)
+            if (!ret)
             {
                 if (shouldThrowException)
                 {
@@ -213,7 +213,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             return ret;
         }
 
-       
+
         public bool ValidateAddress(StreetAddress address)
         {
             return LAAssessorCache.AddressCache.AddressExists(address);
@@ -283,7 +283,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             return ret;
         }
 
-        
+
         public int GetNumberOfLots(StreetAddress streetAddress, Street street)
         {
             int ret = -1;
@@ -292,7 +292,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             ValidateableStreetAddress address = ValidateableStreetAddress.FromStreetAddress(streetAddress);
             if (ret <= 0)
             {
-                ret = NumberOfLotsWorker.GetNumberOfLots(address , street);
+                ret = NumberOfLotsWorker.GetNumberOfLots(address, street);
             }
             //if (ret <= 0)
             //{
@@ -302,7 +302,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             return ret;
         }
 
-       
+
         public int GetLotNumber(StreetAddress address, int from, int to)
         {
             int ret = -1;

@@ -21,14 +21,14 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches.AINs
             get { return _AddressCache; }
             set { _AddressCache = value; }
         }
-	
+
 
         public ParcelCache ParcelCache
         {
             get { return _ParcelCache; }
             set { _ParcelCache = value; }
         }
-	
+
         #endregion
 
         public AINCache(string connectionString, string tableName, AddressCache addressCache, ParcelCache parcelCache)

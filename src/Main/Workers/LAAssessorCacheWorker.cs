@@ -5,7 +5,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
 {
     public class LAAssessorCacheWorker
     {
-         #region Properties
+        #region Properties
         private LAAssessorCache _LAAssessorCache;
         private LAAssessorAgent _LAAssessorAgent;
 

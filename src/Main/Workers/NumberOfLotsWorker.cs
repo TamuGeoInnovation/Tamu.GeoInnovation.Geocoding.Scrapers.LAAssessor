@@ -21,7 +21,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
         #endregion
 
         public NumberOfLotsWorker(LAAssessorCache laAssessorCache, LAAssessorAgent laAssessorAgent, AddressValidatorWorker addressValidatorWorker)
-            :base(laAssessorCache, laAssessorAgent)
+            : base(laAssessorCache, laAssessorAgent)
         {
             AddressValidatorWorker = addressValidatorWorker;
         }
@@ -40,7 +40,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
 
             if (evenOdd == null || evenOdd[0] < 0 || evenOdd[1] < 0)
             {
-                if (evenOdd== null)
+                if (evenOdd == null)
                 {
                     evenOdd = new int[2];
                 }

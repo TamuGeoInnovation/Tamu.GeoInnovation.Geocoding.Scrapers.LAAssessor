@@ -7,7 +7,7 @@ using USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches.Segments;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 {
-    public class LAAssessorCache: SQLServerDatabaseSource
+    public class LAAssessorCache : SQLServerDatabaseSource
     {
 
         #region Properties
@@ -31,19 +31,19 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
             get { return _SegmentCache; }
             set { _SegmentCache = value; }
         }
-	
+
         public QueryCache QueryCache
         {
             get { return _QueryCache; }
             set { _QueryCache = value; }
         }
-	
+
         public ParcelCache ParcelCache
         {
             get { return _ParcelCache; }
             set { _ParcelCache = value; }
         }
-	
+
 
 
         public ImageCache ImageCache
@@ -57,7 +57,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
             get { return _GeometryCache; }
             set { _GeometryCache = value; }
         }
-	
+
         public AINCache AINCache
         {
             get { return _AINCache; }

@@ -3,10 +3,10 @@ using USC.GISResearchLab.Common.GeoreferencedImages;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
 {
-	/// <summary>
+    /// <summary>
     /// Summary description for AssessorImageQueryResult.
-	/// </summary>
-	public class AssessorImage : GeoreferencedWebImage
+    /// </summary>
+    public class AssessorImage : GeoreferencedWebImage
     {
 
         #region Properties
@@ -18,17 +18,17 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor
             get { return _AssessorId; }
             set { _AssessorId = value; }
         }
-		
+
         public TimeSpan TimeTaken
         {
             get { return _TimeTaken; }
-            set{_TimeTaken = value;}
+            set { _TimeTaken = value; }
         }
         #endregion
 
         public AssessorImage()
-		{
-			SRS = "CASTATEPLANE0405";
-		}
-	}
+        {
+            SRS = "CASTATEPLANE0405";
+        }
+    }
 }

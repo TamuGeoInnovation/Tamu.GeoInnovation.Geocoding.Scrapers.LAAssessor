@@ -11,11 +11,11 @@ using USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
 {
-    public class ImageWorker: LAAssessorCacheWorker
+    public class ImageWorker : LAAssessorCacheWorker
     {
 
         public ImageWorker(LAAssessorCache laAssessorCache, LAAssessorAgent laAssessorAgent)
-            :base(laAssessorCache, laAssessorAgent){}
+            : base(laAssessorCache, laAssessorAgent) { }
 
         public AssessorImage GetImage(string assessorId, int width, int height, double resolution)
         {

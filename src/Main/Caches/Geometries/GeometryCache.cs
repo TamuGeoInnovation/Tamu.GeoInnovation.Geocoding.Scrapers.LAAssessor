@@ -8,11 +8,11 @@ using USC.GISResearchLab.Common.Geometries.Polygons;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
 {
-	/// <summary>
-	/// Summary description for GeometryCacheUtils.
-	/// </summary>
+    /// <summary>
+    /// Summary description for GeometryCacheUtils.
+    /// </summary>
     public class GeometryCache : DatabaseTableSource
-	{
+    {
 
         public GeometryCache(string connectionString, string tableName)
             : base(connectionString, tableName)
@@ -22,8 +22,8 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
             : base(dataSource, catalog, userName, password, tableName)
         { }
 
-		public Polygon GetGeometry(string featureId)
-		{
+        public Polygon GetGeometry(string featureId)
+        {
             Polygon ret = null;
             Read();
 
@@ -54,7 +54,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
                         switch (geometryType)
                         {
                             case GeometryType.Polygon:
-                                ret =  Polygon.FromCoordinateString(coordinates);
+                                ret = Polygon.FromCoordinateString(coordinates);
                                 ret.CoordinateUnits = new DecimalDegrees();
                                 ((Polygon)ret).Centroid = new double[] { centerLon, centerLat };
                                 break;
@@ -113,5 +113,5 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches
                 throw new Exception("GeometryCache method error: " + e.Message + " - at: " + e.StackTrace + " : " + sql);
             }
         }
-	}
+    }
 }

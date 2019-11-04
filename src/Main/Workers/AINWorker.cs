@@ -8,10 +8,10 @@ using USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Caches;
 
 namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
 {
-	/// <summary>
+    /// <summary>
     /// Summary description for AINWorker.
-	/// </summary>
-	public class AINWorker: LAAssessorCacheWorker
+    /// </summary>
+    public class AINWorker : LAAssessorCacheWorker
     {
         #region Properties
         private AddressValidatorWorker _AddressValidatorWorker;
@@ -23,7 +23,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
         #endregion
 
         public AINWorker(LAAssessorCache laAssessorCache, LAAssessorAgent laAssessorAgent, AddressValidatorWorker addressValidatorWorker)
-            :base(laAssessorCache, laAssessorAgent)
+            : base(laAssessorCache, laAssessorAgent)
         {
             AddressValidatorWorker = addressValidatorWorker;
         }
@@ -117,8 +117,8 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
                             {
                                 ret = new string[0];
                             }
-                           
-                            string [] temp = new string[ret.Length + 1];
+
+                            string[] temp = new string[ret.Length + 1];
                             ret.CopyTo(temp, 0);
                             temp[temp.Length - 1] = currentAssessorId;
                             ret = temp;
@@ -130,42 +130,42 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
         }
 
 
-		public bool ValidateAIN(string ain)
-		{
-			bool ret = false;
+        public bool ValidateAIN(string ain)
+        {
+            bool ret = false;
 
-			// query the LA Assessor with the address and street number
-			XPathDocument xpathDocument = LAAssessorAgent.RunValidateAINAgent(ain);
+            // query the LA Assessor with the address and street number
+            XPathDocument xpathDocument = LAAssessorAgent.RunValidateAINAgent(ain);
 
-			// get the rows
-			XPathNavigator xpathNavigator = xpathDocument.CreateNavigator();
-			XPathExpression xpathExpression = xpathNavigator.Compile("//Row");
-			XPathNodeIterator rows = xpathNavigator.Select(xpathExpression);
+            // get the rows
+            XPathNavigator xpathNavigator = xpathDocument.CreateNavigator();
+            XPathExpression xpathExpression = xpathNavigator.Compile("//Row");
+            XPathNodeIterator rows = xpathNavigator.Select(xpathExpression);
 
 
-			// loop through each of the addresses returned by the LA Assessor page
-			while (rows.MoveNext()) 
-			{
-				
+            // loop through each of the addresses returned by the LA Assessor page
+            while (rows.MoveNext())
+            {
 
-				XPathNavigator node = rows.Current;
 
-				string ainLink = XMLUtils.getGrandchildValue(node, "ainLink", "Value");
-				string errorMsg = XMLUtils.getGrandchildValue(node, "errorMsg", "Value");
+                XPathNavigator node = rows.Current;
 
-				if (ainLink != null)
-				{
-					ret = true;
-				}
-				else
-				{
-					ret = false;
-				}
+                string ainLink = XMLUtils.getGrandchildValue(node, "ainLink", "Value");
+                string errorMsg = XMLUtils.getGrandchildValue(node, "errorMsg", "Value");
 
-			}
+                if (ainLink != null)
+                {
+                    ret = true;
+                }
+                else
+                {
+                    ret = false;
+                }
 
-			return ret;
-		}
+            }
+
+            return ret;
+        }
 
         public StreetAddress TokenParseAddress(string streetAddress)
         {
@@ -191,5 +191,5 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
             return ret;
         }
 
-	}
+    }
 }

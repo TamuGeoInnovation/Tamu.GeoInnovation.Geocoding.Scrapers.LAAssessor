@@ -12,7 +12,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
     public class AddressValidatorWorker : LAAssessorCacheWorker
     {
         public AddressValidatorWorker(LAAssessorCache laAssessorCache, LAAssessorAgent laAssessorAgent)
-            :base(laAssessorCache, laAssessorAgent){}
+            : base(laAssessorCache, laAssessorAgent) { }
 
 
 
@@ -95,7 +95,7 @@ namespace USC.GISResearchLab.Geocoding.Scrapers.LAAssessor.Workers
 
                         }
 
-                            // the page that came back had some addresses on it so,
+                        // the page that came back had some addresses on it so,
                         //    add each of them into the cache
                         //    they might already be in the cache, so we have to check for their existence first
                         else
