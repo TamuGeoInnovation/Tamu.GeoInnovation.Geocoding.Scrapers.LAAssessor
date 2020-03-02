@@ -172,11 +172,6 @@
       <Name>Common.Core.Geo.Geometries.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Geo.Units.Converters\Src\Main\Common.Core.Geo.Units.Converters.Dev.csproj">
-      <Project>{5CB3098F-54E7-427E-95CA-4D0EBBA9E2AB}</Project>
-      <Name>Common.Core.Geo.Units.Converters.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Geo.Units\Src\Main\Common.Core.Geo.Units.Dev.csproj">
       <Project>{5F42520E-2DDA-4B4A-AFE5-5F5E00E33D47}</Project>
       <Name>Common.Core.Geo.Units.Dev</Name>
